@@ -1,0 +1,1 @@
+void i2cscan(int scl, int sda);

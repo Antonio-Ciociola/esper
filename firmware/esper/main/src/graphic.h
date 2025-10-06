@@ -1,0 +1,2 @@
+void startGraphic();
+void runGraphic();

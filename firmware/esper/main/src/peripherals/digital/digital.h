@@ -1,0 +1,1 @@
+void configDigital(void);

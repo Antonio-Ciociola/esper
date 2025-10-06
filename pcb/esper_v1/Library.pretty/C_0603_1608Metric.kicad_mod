@@ -1,0 +1,214 @@
+(footprint "C_0603_1608Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at -2.273 0 90)
+		(layer "F.SilkS")
+		(uuid "2d6ff7a5-7d02-4fa8-90e0-ca975353440b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "_10p"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(uuid "ac757151-8b24-4981-8b81-c000b1160cb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "684d98e7-c9db-41e3-9f31-82a6d6d7b7b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93383f22-9f1d-4127-9107-aab9be601ee0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.14058 -0.51)
+		(end 0.14058 -0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9da9c4b7-3d8f-4392-a6a3-e427aa1e37ca")
+	)
+	(fp_line
+		(start -0.14058 0.51)
+		(end 0.14058 0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb465c2a-1cad-4369-b1d3-f0096f26710c")
+	)
+	(fp_line
+		(start -1.48 -0.73)
+		(end 1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7cf3ffe-c4a2-4ef4-a59d-da146ff1d153")
+	)
+	(fp_line
+		(start -1.48 0.73)
+		(end -1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f90a76a4-20a5-4172-b7a6-5abdd3f18ee8")
+	)
+	(fp_line
+		(start 1.48 -0.73)
+		(end 1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4279c18-207a-4c34-996a-208bfe41ae3b")
+	)
+	(fp_line
+		(start 1.48 0.73)
+		(end -1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00b3a04b-1e64-4caf-bbf5-03597064292a")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17b198a4-f5e0-4548-a6ba-9e347087a3af")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4163d5fa-c580-4681-8cd9-4085eb3e35f8")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38876e91-a3ed-4ad0-95b8-e7ba90384a8e")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6eb2503-8ba3-4a1e-9106-1c1d6484c07b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3d2d6ce4-d815-49ab-8876-c2a2fd1a5528")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.775 0)
+		(size 0.9 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "ef0b3627-67ff-4941-a705-6809d67eed6b")
+	)
+	(pad "2" smd roundrect
+		(at 0.775 0)
+		(size 0.9 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "952b744a-8277-4ddd-a7d4-82935f9c7bad")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
